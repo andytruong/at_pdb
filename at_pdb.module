@@ -19,7 +19,7 @@ function at_pdb_permission() {
  * Implements hook_pdb_page_alter()
  */
 function at_pdb_page_alter(&$page) {
-  if (user_access(''access phpdebugbar'')) {
+  if (user_access('access phpdebugbar')) {
     at_container('at_pdb.page_alter')
       ->setPage($page)
       ->execute();
