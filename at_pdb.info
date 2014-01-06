@@ -1,0 +1,6 @@
+name = AT PHPDebugBar
+version = 7.x-1.0-dev
+description = Integrate PHPDebugBar to Drupal
+core = 7.x
+
+dependencies[] = at_base

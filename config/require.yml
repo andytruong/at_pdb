@@ -1,0 +1,14 @@
+projects:
+  phpdebugbar:
+    type: library
+    download:
+      type: git
+      url: https://github.com/maximebf/php-debugbar.git
+      revision: 43f0382a81489561445d996f12f47a33755be9fb
+
+  psr.log:
+    type: library
+    download:
+      type: git
+      url: https://github.com/php-fig/log.git
+      revision: 65f363ac44058796a8e1428cf41e6d92d8a75ddc

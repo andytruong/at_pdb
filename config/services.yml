@@ -1,0 +1,9 @@
+services:
+  phpdebugbar:
+    class: '\DebugBar\StandardDebugBar'
+    factory_class: 'Drupal\at_pdb\PHPDebugBar_Factory'
+    factory_method: getInstance
+
+  at_pdb.page_alter:
+    class: '\Drupal\at_pdb\Hook\Page_Alter'
+    arguments: ['@phpdebugbar']
